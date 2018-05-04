@@ -29,7 +29,7 @@ class GitHubSearchView extends React.Component {
     const { username } = this.state;
 
     return (
-      <div className="lkajsdf">
+      <React.Fragment>
         <h1>User search</h1>
         <input
           type="text"
@@ -41,7 +41,7 @@ class GitHubSearchView extends React.Component {
         >
           Search User
         </button>
-      </div>
+      </React.Fragment>
     );
   }
 }

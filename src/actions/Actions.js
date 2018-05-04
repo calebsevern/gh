@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Constants from './Constants.js';
 const gitHubUrl = 'https://api.github.com';
-const accessParam = '?access_token=d25562c94642ee5c1221a84041c5385d2c184533';
+const accessParam = '?access_token=9833afb1ea0853af7135ec5116bc46ae06137471';
 
 const receiveAPIEndpoints = (endpoints) => ({
   type: Constants.RECEIVE_API_ENDPOINTS,
