@@ -1,0 +1,88 @@
+a {
+  text-decoration: none;
+}
+
+.github-browser {
+  color:  #666666;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  padding: 20px;
+}
+
+.user-profile {
+  display: inline-block;
+  width: 245px;
+  vertical-align: top;
+}
+
+  .user-profile img {
+    border-radius: 6px;
+    max-width: 90%;
+  }
+
+  .user-profile-name {
+    padding: 16px 0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  .user-profile-info {
+    color: #24292E;
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+.user-repos-list {
+  display: inline-block;
+  width: 735px;
+  vertical-align: top;
+}
+
+  .user-repo-list-item {
+    border: 1px #e1e4e8 solid;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+  }
+
+  .repo-title {
+    color: #0366d6;
+    font-weight: 600;
+  }
+
+  .repo-description {
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+
+  .repo-language {
+    font-size: 12px;
+  }
+
+.user-repo {
+  position: relative;
+  top: 50px;
+  padding: 16px;
+  left: 150px;
+  height: calc(100% - 100px);
+  width: calc(100% - 300px);
+  border-radius: 6px;
+  background: white;
+  box-sizing: border-box;
+}
+
+  .user-repo-underlay {
+    position: fixed;
+    background: rgba(0, 0, 0, .4);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .user-repo-exit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
